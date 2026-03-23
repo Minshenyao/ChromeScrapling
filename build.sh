@@ -1,7 +1,7 @@
 #!/bin/bash
 
 APP_NAME="chrome-scraper"
-VERSION="1.0.0"
+VERSION="${VERSION:-1.0.0}"
 BUILD_DIR="dist"
 LDFLAGS="-s -w"
 
